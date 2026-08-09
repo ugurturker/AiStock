@@ -1,0 +1,36 @@
+name: stok_ai
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+x-isar-version: &isar_version ^3.3.2
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.3
+  http: ^1.6.0
+  camera: ^0.12.0+2
+  path_provider: ^2.1.6
+  path: ^1.9.1
+  isar_community: *isar_version
+  isar_community_flutter_libs: *isar_version
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  isar_community_generator: *isar_version
+  build_runner: any
+  json_serializable: ^6.8.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
